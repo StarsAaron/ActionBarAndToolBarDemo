@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ActionBarAndToolBarDemo</string>
+    <string name="search_label">label</string>
+    <string name="search_hint">hint</string>
+    <string name="search_invoke">invoke</string>
+
+</resources>

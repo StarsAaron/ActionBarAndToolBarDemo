@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/user_p"
+        android:icon="@mipmap/ic_launcher_round"
+        android:title="用户"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/search"
+        android:title="查找"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:actionViewClass="android.widget.SearchView"/>
+    <item
+        android:id="@+id/progress"
+        android:title="时钟"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:actionLayout="@layout/clock"/>
+</menu>

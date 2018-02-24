@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="@string/search_label"
+    android:hint="@string/search_hint"
+    android:searchMode="showSearchLabelAsBadge"
+
+    android:voiceSearchMode="showVoiceSearchButton|launchRecognizer"
+    android:voiceLanguageModel="free_form"
+    android:voicePromptText="@string/search_invoke"
+    android:searchSuggestAuthority="com.aaron.actionbarandtoolbardemo.SearchSuggestionSampleProvider"
+    android:searchSuggestSelection=" ? "
+    />
+
+    <!--&lt;!&ndash; label为搜索框上方的文本，hint搜索框里面的提示文本，显示label &ndash;&gt;-->
+    <!--android:label="@string/search_label"-->
+    <!--android:hint="@string/search_hint"-->
+    <!--android:searchMode="showSearchLabelAsBadge"-->
+
+    <!--　　&lt;!&ndash; 语音搜索配置 &ndash;&gt;-->
+    <!--android:voiceSearchMode="showVoiceSearchButton|launchRecognizer"-->
+    <!--android:voiceLanguageModel="free_form"-->
+    <!--android:voicePromptText="@string/search_invoke"-->
+
+    <!--&lt;!&ndash; 配置搜索建议，配置错误将不会显示，这里的searchSuggestAuthority的值必须是-->
+    <!--继承自SearchRecentSuggestionsProvider的完整路径名 &ndash;&gt;-->
+    <!--　　 android:searchSuggestAuthority="com.android.cbin.SearchSuggestionSampleProvider"-->
+    <!--android:searchSuggestSelection=" ? "-->

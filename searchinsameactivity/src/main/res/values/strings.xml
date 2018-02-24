@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">SearchTest</string>
+<string name="searchLable">Lable</string>
+<string name="searchHint">please input search key</string>
+</resources>

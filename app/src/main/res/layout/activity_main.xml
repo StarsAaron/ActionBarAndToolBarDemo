@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aaron.actionbarandtoolbardemo.MainActivity">
+
+    <Button
+        android:id="@+id/btn_ab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:text="ActioonBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_tb01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Toolbar01"
+        app:layout_constraintStart_toStartOf="@+id/btn_ab"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ab" />
+
+    <Button
+        android:id="@+id/btn_tb02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Toolbar02"
+        app:layout_constraintStart_toStartOf="@+id/btn_tb01"
+        app:layout_constraintTop_toBottomOf="@+id/btn_tb01" />
+</android.support.constraint.ConstraintLayout>
